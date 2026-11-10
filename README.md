@@ -3,7 +3,7 @@
 
 Este repositorio contiene una demostración práctica de arquitectura de software para resolver un problema común en sistemas de alta concurrencia: **la gestión de carritos de compras efímeros**. 
 
-El proyecto está escrito en **C++17** y utiliza **Redis** (un motor de base de datos NoSQL de estilo Llave-Valor) como capa de persistencia en memoria.
+El proyecto está escrito en **C++** y utiliza **Redis** (un motor de base de datos NoSQL de estilo Llave-Valor) como capa de persistencia en memoria.
 
 ## 📖 Contexto del Problema
 
@@ -23,7 +23,7 @@ Para este caso de uso específico, una base de datos Key-Value es la solución a
 
 ### Prerrequisitos
 - [Docker](https://www.docker.com/) (Para levantar la base de datos localmente)
-- Compilador C++ (GCC/Clang/MSVC) compatible con C++17
+- Compilador C++ (GCC/Clang/MSVC) compatible con C++
 - CMake (>= 3.15)
 - [Conan C++ Package Manager](https://conan.io/)
 
