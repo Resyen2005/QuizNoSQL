@@ -1,0 +1,6 @@
+[requires]
+redis-plus-plus/1.3.10
+
+[generators]
+CMakeDeps
+CMakeToolchain
